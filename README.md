@@ -18,8 +18,10 @@ First time for readme file, Not sure what should we put in this file, It will be
 ### Deployment: 32%
 
 * Application deployed at live URL. (Done)
+    The live page: https://sj212131.github.io/Dwyane-shangxian-Homework-Feb-6/
 
 * Application loads with no errors. (Done)
+    Image loading issue fixed
 
 * Application GitHub URL submitted. (Done)
     https://github.com/sj212131/Dwyane-shangxian-Homework-Feb-6
@@ -32,7 +34,8 @@ First time for readme file, Not sure what should we put in this file, It will be
 
 ### Repository Quality: 13%
 
-* Repository has a unique name. (Done)
+* Repository has a unique name. (Done) 
+    Dwyane-shangxian-Homework-Feb-6
 
 * Repository follows best practices for file structure and naming conventions. (Done)
 
@@ -42,6 +45,10 @@ First time for readme file, Not sure what should we put in this file, It will be
     1. added commit of css file 'adding commit of each element, made adjustment of DRY issues'
     2. added commit of index.html "div id issue, scroll correct info upon click"
     3. added commit of screenshot file "adding screenshot file"
+    4. added commit of index.html move to root directory. 
+    5. added commit of Readme file update the live URL link
+    6. added commit of fixed issue of image loading
+    7. added commit of each adjustment made for debug. 
 
 * Repository contains quality README file with description, screenshot, and link to deployed application. (Done)
 
@@ -50,10 +57,7 @@ First time for readme file, Not sure what should we put in this file, It will be
 You are required to submit the following for review:
 
 * The URL of the deployed application. (Done)
-
-    1. ../Homework/Homework-Feb-6/Homework/Develop/index.html
-
-    2. https://github.com/sj212131/Dwyane-shangxian-Homework-Feb-6/blob/main/Homework/Develop/index.html
+    The live page: https://sj212131.github.io/Dwyane-shangxian-Homework-Feb-6/
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project. (Done)
-    https://github.com/sj212131/Dwyane-shangxian-Homework-Feb-6
+    Github repository, including Readme and code detail: https://github.com/sj212131/Dwyane-shangxian-Homework-Feb-6

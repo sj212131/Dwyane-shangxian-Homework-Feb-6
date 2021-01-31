@@ -1,4 +1,5 @@
 # Homework-Feb-6
+
 This is Homework due on Fen 6.
 This assignment should including the following criteria for teacher grading. 
 First time for readme file, Not sure what should we put in this file, It will be a check list for my home work!

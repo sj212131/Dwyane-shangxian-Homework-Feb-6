@@ -1,0 +1,322 @@
+/* Entire setting */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* body background */
+body {
+    background-color: #d9dcd6;
+}
+
+
+/* class header setting */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+
+/* h1 tag font setting */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+/* h1 tag "seo" 3 letter color chage */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+
+/* header div style & positioning  */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+/* header ul setting  */
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* link of each elements setting */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* paragraph font */
+p {
+    font-size: 16px;
+}
+
+
+/* image of meeting setting  */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ```````````````````````````````````````````````````````````````````` */
+/* positioning of content at each elements, DRY issue, adjustment request */
+/* .float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+
+   above elements repeating, D,R,Y don't repeat yourself, changed to following code. 
+} */ 
+
+.float-left,
+.float-right {
+    float: left;
+    margin-right: 25px;
+}
+/* ````````````````````````````````````````````````````````````````````````` */
+
+
+/* elements content width & positioning  */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* class benefits right side box setting  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+/* ``````````````````````````````````````````````````````````````````````````` */
+/* content of right side box setting, DRY issue, adjustment request*/
+/* .benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+above elements repeating, D,R,Y don't repeat yourself, changed to following code.  */
+
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* ```````````````````````````````````````````````````````````````````````` */
+
+
+/* ```````````````````````````````````````````````````````````````````````` */
+/* Tag of each benefit positioning, DRY issue, adjustment request */
+/* .benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+above elements repeating, D,R,Y don't repeat yourself, changed to following code.   */
+
+.benefit-lead h3,
+.benefit-cost h3,
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* ``````````````````````````````````````````````````````````````````````` */
+
+
+/* ``````````````````````````````````````````````````````````````````````` */
+/* image of each benefit at right side box settings, DRY issue, adjustment request */
+/* .benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+above elements repeating, D,R,Y don't repeat yourself, changed to following code.   */ 
+
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* ``````````````````````````````````````````````````````````````````````` */
+
+
+/* ``````````````````````````````````````````````````````````````````````` */
+/* left side box elements content box setting, DRY issue, adjustment request */
+/* .search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+above elements repeating, D,R,Y don't repeat yourself, changed to following code.   */  
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* ``````````````````````````````````````````````````````````````````````` */
+
+
+
+/* ``````````````````````````````````````````````````````````````````````` */
+/* elements image of left side box setting, DRY issue, adjustment request */
+/* .search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+above elements repeating, D,R,Y don't repeat yourself, changed to following code.   */  
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* ``````````````````````````````````````````````````````````````````````` */
+
+
+/* ``````````````````````````````````````````````````````````````````````` */
+/* h2 tag font setting, DRY issue, adjustment request */
+/* .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
+/* 
+above elements repeating, D,R,Y don't repeat yourself, changed to following code.   */ 
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* ``````````````````````````````````````````````````````````````````````` */
+
+
+/* footer setting */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* footer tag h2 setting */
+.footer h2 {
+    font-size: 20px;
+}

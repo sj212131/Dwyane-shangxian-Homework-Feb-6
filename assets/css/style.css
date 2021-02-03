@@ -13,7 +13,7 @@ body {
 
 
 /* class header setting */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -22,20 +22,20 @@ body {
 
 
 /* h1 tag font setting */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 
 /* h1 tag "seo" 3 letter color chage */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 
 /* header div style & positioning  */
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,11 +45,11 @@ body {
 
 
 /* header ul setting  */
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,7 +69,7 @@ p {
 
 
 /* image of meeting setting  */
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -101,14 +101,14 @@ p {
 
 
 /* elements content width & positioning  */
-.content {
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* class benefits right side box setting  */
-.benefits {
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -138,9 +138,7 @@ p {
 }
 above elements repeating, D,R,Y don't repeat yourself, changed to following code.  */
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+#benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -166,9 +164,7 @@ above elements repeating, D,R,Y don't repeat yourself, changed to following code
 
 above elements repeating, D,R,Y don't repeat yourself, changed to following code.   */
 
-.benefit-lead h3,
-.benefit-cost h3,
-.benefit-brand h3 {
+#benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -198,9 +194,7 @@ above elements repeating, D,R,Y don't repeat yourself, changed to following code
 
 above elements repeating, D,R,Y don't repeat yourself, changed to following code.   */ 
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+#benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -309,7 +303,7 @@ above elements repeating, D,R,Y don't repeat yourself, changed to following code
 
 
 /* footer setting */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -317,6 +311,6 @@ above elements repeating, D,R,Y don't repeat yourself, changed to following code
 }
 
 /* footer tag h2 setting */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

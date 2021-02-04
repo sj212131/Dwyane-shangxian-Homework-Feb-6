@@ -1,10 +1,13 @@
 # Homework-Feb-6
 ==================================================================================================
-Home assignment
+
+
+Home assignment 
 --------------------------------------------------------------------------------------------------
 Background:
+
 This is Homework due on Fen 6. Practice of HTML coding and CSS file.
-This assignment should including the following criteria for teacher grading. 
+
 --------------------------------------------------------------------------------------------------
 Install
 
@@ -55,8 +58,11 @@ for future reference
 
 --------------------------------------------------------------------------------------------------
 check list 
+
 (Done) will be posted after each request is finished.
+
 ### Technical Acceptance Criteria: 40%
+
 * Satisfies all of the above acceptance criteria plus the following code improvements: 
 
   * Application's links all function correctly. (Done)

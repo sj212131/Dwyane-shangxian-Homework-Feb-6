@@ -1,5 +1,7 @@
 # Homework-Feb-6
 ==================================================================================================
+Home assignment
+--------------------------------------------------------------------------------------------------
 Background:
 This is Homework due on Fen 6. Practice of HTML coding and CSS file.
 This assignment should including the following criteria for teacher grading. 

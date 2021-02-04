@@ -78,9 +78,7 @@ p {
     background-position: center;
 }
 
-/* ```````````````````````````````````````````````````````````````````` */
-/* positioning of content at each elements, DRY issue, adjustment request */
-/* .float-left {
+.float-left {
     float: left;
     margin-right: 25px;
 }
@@ -88,16 +86,7 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-
-   above elements repeating, D,R,Y don't repeat yourself, changed to following code. 
-} */ 
-
-.float-left,
-.float-right {
-    float: left;
-    margin-right: 25px;
-}
-/* ````````````````````````````````````````````````````````````````````````` */
+} 
 
 
 /* elements content width & positioning  */

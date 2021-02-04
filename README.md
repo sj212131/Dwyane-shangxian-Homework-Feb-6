@@ -1,11 +1,59 @@
 # Homework-Feb-6
-
-This is Homework due on Fen 6.
+==================================================================================================
+Background:
+This is Homework due on Fen 6. Practice of HTML coding and CSS file.
 This assignment should including the following criteria for teacher grading. 
-First time for readme file, Not sure what should we put in this file, It will be a check list for my home work!
+--------------------------------------------------------------------------------------------------
+Install
 
+This project uses VS Code, GitBash, Please check you have correctly installed those program 
+
+Please ensure your GitLab and Github account created with SSH key.
+
+--------------------------------------------------------------------------------------------------
+Usage （purpose）
+
+Practice HTML and Css file coding, simplify duplicate code without changing any outcome
+
+--------------------------------------------------------------------------------------------------
+
+Table of index file
+
+Html style 
+    head
+        title
+
+    Body
+        deader
+            h1
+                div
+
+        section id hero
+        section id content
+                div1
+                div2
+                div3
+        section id benefits
+                div1
+                div2
+                div3
+        footer
+            h2
+
+
+--------------------------------------------------------------------------------------------------
+Contributing 
+
+for future reference 
+
+--------------------------------------------------------------------------------------------------
+License 
+
+for future reference 
+
+--------------------------------------------------------------------------------------------------
+check list 
 (Done) will be posted after each request is finished.
-
 ### Technical Acceptance Criteria: 40%
 * Satisfies all of the above acceptance criteria plus the following code improvements: 
 
